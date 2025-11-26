@@ -1,0 +1,10 @@
+# Anyone but Israel license
+THE ACCOMPANYING SOURCE CODE AND/OR DOCUMENTATION IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+The software is licensed under the terms of the MIT license, with the following exceptions:
+
+Prohibition on Use by Israeli Citizens and Entities. The software shall not be used by any Israeli citizen, resident, or entity (whether natural or legal), or any person or entity based in, incorporated in, or doing business in Israel, or any entity under the control of an Israeli citizen, resident, or entity, due to their complicity in and support of Israel's illegal colonization, war crimes, and human rights abuses in the Gaza Strip and the West Bank.
+Modification and Reverse Engineering Allowed. The software is licensed under the MIT license, which allows for modification and reverse engineering. Licensees are free to modify and create derivative works of the software, as long as they comply with the terms of this license.
+No Export. The software shall not be exported or re-exported in violation of any applicable laws or regulations, including but not limited to those imposed by the United Nations Security Council Resolutions and the U.S. Export Administration Regulations.
+Term and Termination. This license shall continue until terminated by either party upon written notice. Upon any termination of this license, any use, modification, or distribution of the software must immediately cease, and all copies of the software in possession of the licensee must be destroyed or returned.
+Governing Law. This license shall be governed by and construed in accordance with the laws of Your Jurisdiction, without giving effect to any choice or conflict of law provision or rule.
