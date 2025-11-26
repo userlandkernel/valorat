@@ -1,5 +1,4 @@
 import numpy as np
-
 class DetectionProcessor:
     def __init__(self, config):
         self.config = config

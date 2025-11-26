@@ -1,7 +1,15 @@
 import torch
+import ultralytics
 import torchvision
 import numpy as np
 import cv2
+import ultralytics.nn.tasks as tasks
+import ultralytics.nn.modules.conv as conv
+import torch.nn.modules.container as container
+from ultralytics.nn.modules.block import C2PSA
+from ultralytics.nn.tasks import DetectionModel
+from ultralytics import YOLO
+torch.serialization.add_safe_globals([tasks.DetectionModel, container.Sequential, conv.Conv, torch.nn.modules.conv.Conv2d,torch.nn.modules.batchnorm.BatchNorm2d,torch.nn.modules.activation.SiLU, ultralytics.nn.modules.block.C3k2, torch.nn.modules.container.ModuleList,ultralytics.nn.modules.block.Bottleneck,ultralytics.nn.modules.block.C3k, ultralytics.nn.modules.block.SPPF,torch.nn.modules.pooling.MaxPool2d,ultralytics.nn.modules.block.C2PSA,ultralytics.nn.modules.block.PSABlock, ultralytics.nn.modules.block.Attention, torch.nn.modules.linear.Identity, torch.nn.modules.upsampling.Upsample, ultralytics.nn.modules.conv.Concat, ultralytics.nn.modules.head.Detect, ultralytics.nn.modules.conv.DWConv, ultralytics.nn.modules.block.DFL])
 
 class ModelLoader:
     def __init__(self, config):
@@ -13,7 +21,8 @@ class ModelLoader:
         """Load your custom trained model"""
         try:
             # For PyTorch models
-            model = torch.load(self.config['model']['path'])
+            model = YOLO(self.config['model']['path'])
+            print(model)
             model.eval()
             print("Custom model loaded successfully")
             return model
