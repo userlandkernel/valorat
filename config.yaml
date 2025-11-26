@@ -1,0 +1,18 @@
+model:
+  path: "models/ValorantPurple6p6kImg640.pt"
+  confidence_threshold: 0.7
+  input_size: [640, 640]
+
+capture:
+  region: [0, 0, 1920, 1080]  # x, y, width, height
+  fps: 60
+
+aim:
+  smoothing: 0.5
+  reaction_delay: 0.1
+  headshot_offset: -10  # pixels above head center
+
+safety:
+  toggle_key: "F6"
+  exit_key: "F7"
+  max_runtime: 3600  # seconds
